@@ -1,0 +1,30 @@
+<h1>Titulo 1 {{titulo}} </h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <div class="form-group">
+        <label for="usr">Nombre</label>
+        <input type="text" [(ngModel)]="datos.Nombre" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="usr">Apellido</label>
+        <input type="text" [(ngModel)]="datos.Apellido"class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="usr">Edad</label>
+        <input type="text" [(ngModel)]="datos.Edad" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="usr">Documento</label>
+        <input type="text" [(ngModel)]="datos.Documento" class="form-control">
+      </div>
+        
+    </div>
+
+
+    <div class="col-6">
+    <app-hijo [propiedadHijo]="datos"></app-hijo>
+  </div>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+INICIALIZAR E SUBIR
+>
+git init
+git status 
+git add .
+git commit -m "first commit" 
+
+--------------------------------~Si lo pide~---------------------------------
+git config user.name "Jhonatan"
+git config user.email "je.azul@yahoo.com"
+-------------------------------------------------------------------------------
+git remote add origin https://github.com/Je0azul5/UsaComex.git
+-------------------------------------------------------------------------------
+
+git push -u origin master 
+>
+------------------------------------------------------------------------------------------
+ACTUALIZAR 
+
+git add .
+git status 
+git commit -m "first commit" 
+git push -u 
+git push master origen --force
+----------------------------------------------------------------------------------------
+DESCARGAR
+Click bash 
+git pull origin master
+

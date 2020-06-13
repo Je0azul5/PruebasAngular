@@ -1,0 +1,38 @@
+<div>
+
+  <h1>Prueba de routing</h1>
+  <img
+    src="https://hipertextual.com/files/2020/05/hipertextual-sabemos-fecha-y-hora-que-spacex-lanzara-su-primer-viaje-tripulado-crew-dragon-2020571787-740x490.jpeg"
+    alt="..." style="align-items: center;">
+</div>
+
+<div>
+  <ul>
+    <h3>Opciones de ruta</h3>
+    <li>
+      <h4><a [routerLink]="['/']">Home</a></h4>
+    </li>
+    <li>
+      <h4><a [routerLink]="['/componente1']">Componente 1</a></h4>
+    </li>
+    <li>
+      <h4><a [routerLink]="['/componente2']">Componente 2</a></h4>
+    </li>
+    <li>
+      <h4><a [routerLink]="['/componente3']">Ruta desconocida</a></h4>
+    </li>
+    <li>
+      <h4><a [routerLink]="['/componente2',7000]">Ruta Con un parametro</a></h4>
+    </li>
+    <li>
+      <h4><a [routerLink]="['/componente1',8000,'jpg']">Ruta Con dos parametro</a></h4>
+    </li>
+  </ul>
+</div>
+
+
+
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
